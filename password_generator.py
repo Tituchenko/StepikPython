@@ -1,3 +1,4 @@
+# Генерация пароля
 import random
 
 def get_int(text):
