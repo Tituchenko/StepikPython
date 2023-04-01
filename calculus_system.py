@@ -25,19 +25,6 @@ def translate_form10 (number,system):
     return result[::-1]
 
 
-# print (translate_pos_sys("110101",2))
-# print (translate_pos_sys("3211",4))
-# print (translate_pos_sys("214",8))
-# print (translate_pos_sys("2AF",16))
-# print (translate_pos_sys("111111",2))
-# print ("Число: ")
-# numbers=input()
-# print ("Система: ")
-# system=int(input())
-# print (translate_pos_sys(numbers,system))
-#
-# print (translate_form10(1000,16))
-# print (translate_form10(513,2))
 def boh(number):
     b=bin(number)[2:]
     o=oct(number)[2:]

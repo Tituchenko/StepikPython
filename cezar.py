@@ -48,27 +48,6 @@ def get_int(text):
             print ("Введите число!")
     return int(result)
 
-# type=get_user_info("Введите направление", ['code','decode'])
-#
-# if get_user_info("Введите язык", ['rus','eng'])=='rus':
-#     lowercase=lowercase_letters_rus
-#     uppercase=uppercase_letters_rus
-# else:
-#     lowercase = lowercase_letters_eng
-#     uppercase = uppercase_letters_eng
-#
-# key=get_int("Введите ключ")
-#
-# print ('Введите текст')
-# text=input()
-#
-# if type=='code':
-#     print(code(text,key,lowercase,uppercase))
-# else:
-#     print(decode(text, key, lowercase, uppercase))
-#
-# for i in range(30):
-#     print(decode(text, i, lowercase, uppercase))
 
 def get_key(s,lowercase,uppercase):
     key=0
